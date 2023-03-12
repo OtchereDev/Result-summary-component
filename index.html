@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <script
+      src="https://kit.fontawesome.com/258daaad53.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="result-container">
+        <h1 class="heading">Your Result</h1>
+
+        <div class="result-circle">
+          <h3 class="score">76</h3>
+          <p class="total_score">of 100</p>
+        </div>
+
+        <div class="result-info">
+          <h3 class="heading">Great</h3>
+          <p class="message">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+
+      <div class="summary-section">
+        <h4 class="heading">Summary</h4>
+
+        <div>
+          <div class="result-list-item first">
+            <div class="identifier">
+              <i class="fa-solid fa-bolt"></i>
+
+              <p>Reaction</p>
+            </div>
+
+            <p class="score">80 <span>/ 100</span></p>
+          </div>
+
+          <div class="result-list-item second">
+            <div class="identifier">
+              <i class="fa-solid fa-brain"></i>
+              <p>Memory</p>
+            </div>
+
+            <p class="score">9 <span>/ 100</span></p>
+          </div>
+
+          <div class="result-list-item third">
+            <div class="identifier">
+              <i class="fa-regular fa-comment"></i>
+
+              <p>Verbal</p>
+            </div>
+
+            <p class="score">61 <span>/ 100</span></p>
+          </div>
+
+          <div class="result-list-item fourth">
+            <div class="identifier">
+              <i class="fa-regular fa-eye"></i>
+
+              <p>Visual</p>
+            </div>
+
+            <p class="score">72 <span>/ 100</span></p>
+          </div>
+        </div>
+
+        <button class="action_btn">Continue</button>
+      </div>
+    </div>
+  </body>
+</html>
